@@ -50,7 +50,7 @@ function ContactUs() {
         </div>
 
         <div className="mt-12">
-          <h2 className="text-lg font-medium text-gray-800 dark:text-white text-center">Site Map</h2>
+          <h2 className="text-lg font-medium text-gray-800 dark:text-white text-center"></h2>
           <div className="flex flex-col items-center mt-4 space-y-2 text-blue-500 dark:text-blue-400">
             <a href="#home">Home</a>
             <a href="#features">Features</a>
