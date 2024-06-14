@@ -7,12 +7,10 @@ function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   
   const menuItems = [
-    // { id: 1, title: "Home", to: "home" },
     { id: 2, title: "About Us", to: "aboutus" },
     { id: 3, title: "Features", to: "features" },
-    { id: 3, title: "Gallery", to: "gallery" },
-    { id: 3, title: "Contact Us", to: "contact" },
-    
+    { id: 4, title: "Gallery", to: "gallery" },
+    { id: 5, title: "Contact Us", to: "contact" },
   ];
 
   return (
@@ -23,7 +21,7 @@ function Header() {
             <span className="sr-only">Your Company</span>
             <img className="h-16 w-auto" src="/logo.jpg" alt="Logo" />
           </a>
-          <h1 className="ml-4 text-xl font-bold text-gray-900">R2S GREENWAVE</h1>
+          <h1 className="ml-4 text-xl font-bold text-gray-900" style={{ paddingTop: '10px' }}>R2S GREENWAVE</h1>
         </div>
         <div className="flex lg:hidden">
           <button

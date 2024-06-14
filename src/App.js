@@ -6,8 +6,7 @@ import Home from "./components/Home";
 import Gallery from "./components/Gallery";
 import AboutUs from "./components/AboutUs";
 import React from 'react'; // Import React
-import Terms from "./components/Terms";
-import Socials from "./components/socials";
+
 
 
 function App() {
