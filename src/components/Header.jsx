@@ -16,7 +16,7 @@ function Header() {
   ];
 
   return (
-    <header className="bg-white">
+    <header className="bg-white" style={{ position: 'fixed', top: 0, width: '100%', zIndex: 1000 }}>
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global" style={{ height: '80px' }}>
         <div className="flex lg:flex-1 items-center">
           <a href="#" className="-m-1.5 p-1.5">
